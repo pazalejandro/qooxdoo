@@ -51,7 +51,7 @@ also use cross platform with Qooxdoo, provided you use the Qooxdoo-compiler):
 
 ```javascript
 function connectToServer() {
-  new qx.Promise((resolve, reject) => {
+  return new qx.Promise((resolve, reject) => {
     // Connect to the server asynchronously here; if the server call is successful,
     //  we call resolve() and handle errors by calling reject().
     resolve("Success");
